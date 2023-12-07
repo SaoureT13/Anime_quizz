@@ -1,0 +1,486 @@
+{
+  "naruto": {
+    "questions": [
+      {
+        "id": 1,
+        "contenu": "Quel est le nom du protagoniste de Naruto Shippuden?",
+        "reponses": [
+          { "id": 1, "contenu": "Sasuke Uchiha", "correcte": false },
+          { "id": 2, "contenu": "Naruto Uzumaki", "correcte": true },
+          { "id": 3, "contenu": "Sakura Haruno", "correcte": false },
+          { "id": 4, "contenu": "Kakashi Hatake", "correcte": false }
+        ]
+      },
+      {
+        "id": 2,
+        "contenu": "Quel démon a été scellé en Naruto?",
+        "reponses": [
+          {
+            "id": 5,
+            "contenu": "Renard à neuf queues (Kurama)",
+            "correcte": true
+          },
+          { "id": 6, "contenu": "Serpent blanc (Manda)", "correcte": false },
+          {
+            "id": 7,
+            "contenu": "Hibou à trois queues (Matatabi)",
+            "correcte": false
+          },
+          {
+            "id": 8,
+            "contenu": "Tortue à cinq queues (Isobu)",
+            "correcte": false
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "contenu": "Quelle est la technique de ninja signature de Naruto?",
+        "reponses": [
+          { "id": 9, "contenu": "Chidori", "correcte": false },
+          {
+            "id": 10,
+            "contenu": "Kage Bunshin no Jutsu (Multi Clonage)",
+            "correcte": true
+          },
+          { "id": 11, "contenu": "Rasengan", "correcte": false },
+          { "id": 12, "contenu": "Sharingan", "correcte": false }
+        ]
+      },
+      {
+        "id": 4,
+        "contenu": "Quel est le sensei de l'équipe 7?",
+        "reponses": [
+          { "id": 13, "contenu": "Orochimaru", "correcte": false },
+          { "id": 14, "contenu": "Kakashi", "correcte": true },
+          { "id": 15, "contenu": "Tsunade", "correcte": false },
+          { "id": 16, "contenu": "Itachi Uchiha", "correcte": false }
+        ]
+      },
+      {
+        "id": 5,
+        "contenu": "Quel est le village d'origine de Naruto?",
+        "reponses": [
+          {
+            "id": 17,
+            "contenu": "Sunagakure (Village caché du Sable)",
+            "correcte": false
+          },
+          {
+            "id": 18,
+            "contenu": "Kirigakure (Village caché de la Brume)",
+            "correcte": false
+          },
+          {
+            "id": 19,
+            "contenu": "Konohagakure (Village caché de la Feuille)",
+            "correcte": true
+          },
+          {
+            "id": 20,
+            "contenu": "Iwagakure (Village caché de la Roche)",
+            "correcte": false
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "contenu": "Quel est le nom du meilleur ami de Naruto?",
+        "reponses": [
+          { "id": 21, "contenu": "Sasuke Uchiha", "correcte": true },
+          { "id": 22, "contenu": "Kiba Inuzuka", "correcte": false },
+          { "id": 23, "contenu": "Shikamaru Nara", "correcte": false },
+          { "id": 24, "contenu": "Neji Hyuga", "correcte": false }
+        ]
+      },
+      {
+        "id": 7,
+        "contenu": "Quel est le clan auquel appartient Sasuke?",
+        "reponses": [
+          { "id": 25, "contenu": "Clan Uzumaki", "correcte": false },
+          { "id": 26, "contenu": "Clan Hyuga", "correcte": false },
+          { "id": 27, "contenu": "Clan Uchiha", "correcte": true },
+          { "id": 28, "contenu": "Clan Nara", "correcte": false }
+        ]
+      },
+      {
+        "id": 8,
+        "contenu": "Quel est le nom du fils de Naruto?",
+        "reponses": [
+          { "id": 29, "contenu": "Boruto", "correcte": true },
+          { "id": 30, "contenu": "Sarada", "correcte": false },
+          { "id": 31, "contenu": "Himawari", "correcte": false },
+          { "id": 32, "contenu": "Mitsuki", "correcte": false }
+        ]
+      },
+      {
+        "id": 9,
+        "contenu": "Quel est le nom du sensei de Kakashi Hatake?",
+        "reponses": [
+          { "id": 33, "contenu": "Hiruzen Sarutobi", "correcte": false },
+          { "id": 34, "contenu": "Minato Namikaze", "correcte": true },
+          { "id": 35, "contenu": "Tobirama Senju", "correcte": false },
+          { "id": 36, "contenu": "Danzo Shimura", "correcte": false }
+        ]
+      },
+      {
+        "id": 10,
+        "contenu": "Quel est le nom de la technique ultime de Sasuke Uchiha?",
+        "reponses": [
+          { "id": 37, "contenu": "Chidori", "correcte": false },
+          { "id": 38, "contenu": "Rasengan", "correcte": false },
+          { "id": 39, "contenu": "Amaterasu", "correcte": true },
+          { "id": 40, "contenu": "Kamui", "correcte": false }
+        ]
+      }
+    ],
+    "bonnesReponses": [2, 5, 10, 14, 19, 21, 27, 29, 34, 39]
+  },
+  "dbz": {
+    "questions": [
+      {
+        "id": 1,
+        "contenu": "Quel est le nom du protagoniste de Dragon Ball Z ?",
+        "reponses": [
+          { "id": 1, "contenu": "Vegeta", "correcte": false },
+          { "id": 2, "contenu": "Goku", "correcte": true },
+          { "id": 3, "contenu": "Gohan", "correcte": false },
+          { "id": 4, "contenu": "Piccolo", "correcte": false }
+        ]
+      },
+      {
+        "id": 2,
+        "contenu": "Quelle est la transformation la plus puissante de Goku?",
+        "reponses": [
+          { "id": 5, "contenu": "Super Saiyan 2", "correcte": false },
+          { "id": 6, "contenu": "Kaio-Ken", "correcte": false },
+          { "id": 7, "contenu": "Ultra Instinct", "correcte": true },
+          { "id": 8, "contenu": "Super Saiyan 3", "correcte": false }
+        ]
+      },
+      {
+        "id": 3,
+        "contenu": "Quel est le nom du fils aîné de Goku?",
+        "reponses": [
+          { "id": 9, "contenu": "Trunks", "correcte": false },
+          { "id": 10, "contenu": "Gohan", "correcte": true },
+          { "id": 11, "contenu": "Raditz", "correcte": false },
+          { "id": 12, "contenu": "Goten", "correcte": false }
+        ]
+      },
+      {
+        "id": 4,
+        "contenu": "Quelle est la planète d'origine de Vegeta?",
+        "reponses": [
+          { "id": 13, "contenu": "Namek", "correcte": false },
+          { "id": 14, "contenu": "Terre", "correcte": false },
+          { "id": 15, "contenu": "Mars", "correcte": false },
+          { "id": 16, "contenu": "Planète Vegeta", "correcte": true }
+        ]
+      },
+      {
+        "id": 5,
+        "contenu": "Qui est le prince des Saiyans?",
+        "reponses": [
+          { "id": 17, "contenu": "Goku", "correcte": false },
+          { "id": 18, "contenu": "Gohan", "correcte": false },
+          { "id": 19, "contenu": "Vegeta", "correcte": true },
+          { "id": 20, "contenu": "Raditz", "correcte": false }
+        ]
+      },
+      {
+        "id": 6,
+        "contenu": "Quel est le nom du frère aîné de Frieza?",
+        "reponses": [
+          { "id": 21, "contenu": "Cooler", "correcte": true },
+          { "id": 22, "contenu": "King Cold", "correcte": false },
+          { "id": 23, "contenu": "Cell", "correcte": false },
+          { "id": 24, "contenu": "Lord Slug", "correcte": false }
+        ]
+      },
+      {
+        "id": 7,
+        "contenu": "Quel est l'ennemi principal lors de la saga des Saiyans?",
+        "reponses": [
+          { "id": 25, "contenu": "Frieza", "correcte": false },
+          { "id": 26, "contenu": "Cell", "correcte": false },
+          { "id": 27, "contenu": "Raditz", "correcte": false },
+          { "id": 28, "contenu": "Vegeta", "correcte": true }
+        ]
+      },
+      {
+        "id": 8,
+        "contenu": "Quel est le nom du fils de Vegeta et Bulma?",
+        "reponses": [
+          { "id": 29, "contenu": "Trunks", "correcte": true },
+          { "id": 30, "contenu": "Goten", "correcte": false },
+          { "id": 31, "contenu": "Bra", "correcte": false },
+          { "id": 32, "contenu": "Gohan", "correcte": false }
+        ]
+      },
+      {
+        "id": 9,
+        "contenu": "Qui a tué Cell lors de la saga Cell?",
+        "reponses": [
+          { "id": 33, "contenu": "Gohan", "correcte": true },
+          { "id": 34, "contenu": "Vegeta", "correcte": false },
+          { "id": 35, "contenu": "Goku", "correcte": false },
+          { "id": 36, "contenu": "Trunks", "correcte": false }
+        ]
+      },
+      {
+        "id": 10,
+        "contenu": "Quel est le nom du roi de la Terre dans l'univers de Dragon Ball Z?",
+        "reponses": [
+          { "id": 37, "contenu": "Roi Vegeta", "correcte": false },
+          { "id": 38, "contenu": "Roi Cold", "correcte": false },
+          { "id": 39, "contenu": "Roi Piccolo", "correcte": false },
+          { "id": 40, "contenu": "Roi Ox-King", "correcte": true }
+        ]
+      }
+    ],
+    "bonnesReponses": [10, 16, 2, 7, 21, 19, 28, 29, 33, 40]
+  },
+  "dm": {
+    "questions": [
+      {
+        "id": 1,
+        "contenu": "Quel est le nom du protagoniste de Demon Slayer ?",
+        "reponses": [
+          { "id": 1, "contenu": "Zenitsu Agatsuma", "correcte": false },
+          { "id": 2, "contenu": "Nezuko Kamado", "correcte": false },
+          { "id": 3, "contenu": "Tanjiro Kamado", "correcte": true },
+          { "id": 4, "contenu": "Inosuke Hashibira", "correcte": false }
+        ]
+      },
+      {
+        "id": 2,
+        "contenu": "Quel est l'objectif principal de Tanjiro?",
+        "reponses": [
+          {
+            "id": 5,
+            "contenu": "Trouver le trésor légendaire",
+            "correcte": false
+          },
+          { "id": 6, "contenu": "Sauver sa sœur Nezuko", "correcte": true },
+          { "id": 7, "contenu": "Devenir le plus fort", "correcte": false },
+          { "id": 8, "contenu": "Détruire les démons", "correcte": false }
+        ]
+      },
+      {
+        "id": 3,
+        "contenu": "Quelle est l'arme principale des chasseurs de démons?",
+        "reponses": [
+          { "id": 9, "contenu": "Épée magique", "correcte": false },
+          { "id": 10, "contenu": "Lance", "correcte": false },
+          { "id": 11, "contenu": "Katana", "correcte": true },
+          { "id": 12, "contenu": "Arc", "correcte": false }
+        ]
+      },
+      {
+        "id": 4,
+        "contenu": "Quel est le nom du maître de Tanjiro, Zenitsu et Inosuke?",
+        "reponses": [
+          { "id": 13, "contenu": "Giyu Tomioka", "correcte": false },
+          { "id": 14, "contenu": "Muzan Kibutsuji", "correcte": false },
+          { "id": 15, "contenu": "Sakonji Urokodaki", "correcte": true },
+          { "id": 16, "contenu": "Kanao Tsuyuri", "correcte": false }
+        ]
+      },
+      {
+        "id": 5,
+        "contenu": "Quel est le souffle (style) de Tanjiro?",
+        "reponses": [
+          { "id": 17, "contenu": "Souffle du Vent", "correcte": false },
+          { "id": 18, "contenu": "Souffle du Feu", "correcte": false },
+          { "id": 19, "contenu": "Souffle de l'Insecte", "correcte": false },
+          { "id": 20, "contenu": "Souffle de l'Eau", "correcte": true }
+        ]
+      },
+      {
+        "id": 6,
+        "contenu": "Quel est le rang de Tanjiro en tant que chasseur de démons?",
+        "reponses": [
+          { "id": 21, "contenu": "Pillard de démons", "correcte": false },
+          { "id": 22, "contenu": "Assassin de démons", "correcte": false },
+          { "id": 23, "contenu": "Pourfendeur de démons", "correcte": true },
+          { "id": 24, "contenu": "Tueur de démons", "correcte": false }
+        ]
+      },
+      {
+        "id": 7,
+        "contenu": "Quel est le nom du frère aîné de Zenitsu?",
+        "reponses": [
+          { "id": 25, "contenu": "Genya Shinazugawa", "correcte": false },
+          { "id": 26, "contenu": "Kanae Kocho", "correcte": false },
+          { "id": 27, "contenu": "Kaigaku", "correcte": true },
+          { "id": 28, "contenu": "Kanao Tsuyuri", "correcte": false }
+        ]
+      },
+      {
+        "id": 8,
+        "contenu": "Quelle est la composition du groupe sanguin de Kanao Tsuyuri?",
+        "reponses": [
+          { "id": 29, "contenu": "O", "correcte": false },
+          { "id": 30, "contenu": "B", "correcte": false },
+          { "id": 31, "contenu": "A", "correcte": false },
+          { "id": 32, "contenu": "AB", "correcte": true }
+        ]
+      },
+      {
+        "id": 9,
+        "contenu": "Quel est le surnom de Zenitsu en tant que chasseur de démons?",
+        "reponses": [
+          { "id": 33, "contenu": "Le Vent Rapide", "correcte": false },
+          { "id": 34, "contenu": "L'Épée Éclairante", "correcte": true },
+          { "id": 35, "contenu": "L'Épée Flamboyante", "correcte": false },
+          { "id": 36, "contenu": "Le Tueur de Démons", "correcte": false }
+        ]
+      },
+      {
+        "id": 10,
+        "contenu": "Quel est le nom du démon qui a tué la famille de Tanjiro?",
+        "reponses": [
+          { "id": 37, "contenu": "Akaza", "correcte": false },
+          { "id": 38, "contenu": "Rui", "correcte": false },
+          { "id": 39, "contenu": "Muzan Kibutsuji", "correcte": true },
+          { "id": 40, "contenu": "Enmu", "correcte": false }
+        ]
+      }
+    ],
+    "bonnesReponses": [3, 6, 11, 15, 20, 23, 27, 32, 34, 39]
+  },
+  "komi": {
+    "questions": [
+      {
+        "id": 1,
+        "contenu": "Quel est le prénom complet de Komi-san?",
+        "reponses": [
+          { "id": 1, "contenu": "Shouko Komi", "correcte": true },
+          { "id": 2, "contenu": "Kako Shouko", "correcte": false },
+          { "id": 3, "contenu": "Yuki Komi", "correcte": false },
+          { "id": 4, "contenu": "Aoi Komi", "correcte": false }
+        ]
+      },
+      {
+        "id": 2,
+        "contenu": "Quel est le trouble de communication dont souffre Komi-san?",
+        "reponses": [
+          { "id": 5, "contenu": "Agoraphobie", "correcte": false },
+          { "id": 6, "contenu": "Mutisme sélectif", "correcte": true },
+          { "id": 7, "contenu": "Claustrophobie", "correcte": false },
+          { "id": 8, "contenu": "Anxiété sociale", "correcte": false }
+        ]
+      },
+      {
+        "id": 3,
+        "contenu": "Qui est le meilleur ami de Komi-san?",
+        "reponses": [
+          { "id": 9, "contenu": "Tadano Hitohito", "correcte": true },
+          { "id": 10, "contenu": "Agari Himiko", "correcte": false },
+          { "id": 11, "contenu": "Najimi Osana", "correcte": false },
+          { "id": 12, "contenu": "Hoshino Teruyuki", "correcte": false }
+        ]
+      },
+      {
+        "id": 4,
+        "contenu": "Quel est le surnom de Komi-san à l'école?",
+        "reponses": [
+          { "id": 13, "contenu": "Reine du silence", "correcte": true },
+          { "id": 14, "contenu": "Fée des paroles", "correcte": false },
+          {
+            "id": 15,
+            "contenu": "Déesse de la communication",
+            "correcte": false
+          },
+          {
+            "id": 16,
+            "contenu": "Princesse de la bavardage",
+            "correcte": false
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "contenu": "Quelle est la passion de Komi-san?",
+        "reponses": [
+          { "id": 17, "contenu": "Lecture de manga", "correcte": false },
+          { "id": 18, "contenu": "Jardinage", "correcte": false },
+          { "id": 19, "contenu": "Cuisine", "correcte": true },
+          { "id": 20, "contenu": "Photographie", "correcte": false }
+        ]
+      },
+      {
+        "id": 6,
+        "contenu": "Quel est le talent particulier de Komi-san?",
+        "reponses": [
+          { "id": 21, "contenu": "Jonglage", "correcte": false },
+          { "id": 22, "contenu": "Dessin", "correcte": true },
+          { "id": 23, "contenu": "Musique", "correcte": false },
+          { "id": 24, "contenu": "Sport", "correcte": false }
+        ]
+      },
+      {
+        "id": 7,
+        "contenu": "Quel est le trait de caractère principal de Komi-san?",
+        "reponses": [
+          { "id": 25, "contenu": "Timidité", "correcte": false },
+          { "id": 26, "contenu": "Arrogance", "correcte": false },
+          { "id": 27, "contenu": "Générosité", "correcte": false },
+          { "id": 28, "contenu": "Gentillesse", "correcte": true }
+        ]
+      },
+      {
+        "id": 8,
+        "contenu": "Quel est le moyen de communication préféré de Komi-san?",
+        "reponses": [
+          { "id": 29, "contenu": "Messages écrits", "correcte": true },
+          { "id": 30, "contenu": "Langage des signes", "correcte": false },
+          { "id": 31, "contenu": "Messagerie vocale", "correcte": false },
+          { "id": 32, "contenu": "Appels téléphoniques", "correcte": false }
+        ]
+      },
+      {
+        "id": 9,
+        "contenu": "Quel est le rêve de Komi-san en matière de communication?",
+        "reponses": [
+          { "id": 33, "contenu": "Parler devant une foule", "correcte": true },
+          {
+            "id": 34,
+            "contenu": "Devenir une oratrice renommée",
+            "correcte": false
+          },
+          {
+            "id": 35,
+            "contenu": "Écrire un livre sur la communication",
+            "correcte": false
+          },
+          {
+            "id": 36,
+            "contenu": "Participer à une émission de télévision",
+            "correcte": false
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "contenu": "Quel est le moyen que Tadano utilise pour communiquer avec Komi-san au début de l'histoire?",
+        "reponses": [
+          { "id": 37, "contenu": "Langage des signes", "correcte": false },
+          {
+            "id": 38,
+            "contenu": "Messagerie écrite sur un cahier",
+            "correcte": true
+          },
+          {
+            "id": 39,
+            "contenu": "Communication télépathique",
+            "correcte": false
+          },
+          { "id": 40, "contenu": "Messagerie vocale", "correcte": false }
+        ]
+      }
+    ],
+    "bonnesReponses": [1, 6, 9, 13, 19, 22, 28, 29, 33, 38]
+  }
+}

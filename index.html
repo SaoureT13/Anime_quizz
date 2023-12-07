@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+  <title>Quizz App</title>
+  <script type="module" src="./main.js" defer></script>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <script type="module" src="/main.js" defer></script>
+
+  <template id="answer-template">
+    <button role="tab" aria-controls="panel-1" id="tab-1" type="button" aria-selected="false" tabindex="0" 
+    class="answer">
+      <img src="" alt="">
+      <p></p>
+    </button>
+  </template>
+
+  <div class="container">
+    <div class="loading">
+      <span class="loader"></span>
+    </div>
+
+    <div class="head">
+
+      <p class="subject-title"></p>
+
+
+    </div>
+
+    <div class="contain active">
+      <div class="right">
+        <h1>Welcome to the <span>Anime Quizz</span></h1>
+        <p>Pick a subject for get started.</p>
+      </div>
+
+      <div 
+        role="tabList" 
+        aria-label="tabs component"
+        class="left"
+        >
+        <div role="tab" aria-controls="panel-1" id="tab-1" type="button" aria-selected="false" tabindex="-1"
+        class="subject" data-filter="naruto">
+          <img src="./img/naruto.jpg" alt="">
+          <p>Naruto Shippuden</p>
+        </div>
+        <div role="tab" aria-controls="panel-2" id="tab-2" type="button" aria-selected="false" tabindex="-1"
+        class="subject" data-filter="dbz">
+          <img src="./img/dbz.jpg" alt="">
+          <p>Dragon Ball</p>
+        </div>
+        <div role="tab" aria-controls="panel-3" id="tab-3" type="button" aria-selected="false" tabindex="-1" 
+        class="subject" data-filter="dm">
+          <img src="./img/dm.jpg" alt="">
+          <p>Demon Slayer</p>
+        </div>
+        <div role="tab" aria-controls="panel-4" id="tab-4" type="button" aria-selected="false" tabindex="-1"
+        class="subject" data-filter="komi">
+          <img src="./img/komi.jpg" alt="">
+          <p>Komi-san can't communicate</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="contain">
+      <div class="right">
+        <p class="list-question">Question <span class="current-question"></span> of 10</p>
+        <h2 class="box-question">
+        </h2>
+        <div class="progress-bar">
+          <div class="bar"></div>
+        </div>
+      </div>
+
+      <div class="left">
+        <div class="answer-box" role="tabList" 
+        aria-label="tabs component" tabindex="0"></div>
+
+        <button class="btn-submit">Submit Answer</button>
+      </div>
+    </div>
+
+    <div class="result" style="display: none;">
+      <img src="./img/naruto.jpg" alt="" width="100">
+      <p class="comment"></p>
+      <p>Score: <span class="score"></span>/</p>
+
+      <button class="restart">Recommner</button>
+    </div>
+  </div>
+</body>
+
+</html>
